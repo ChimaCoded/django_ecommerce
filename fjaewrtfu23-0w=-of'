@@ -1,0 +1,59 @@
+[33mcommit b3c54a6a764bb09bab1a21dfd519ea99d1329ebc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Rajvardhan <rajthakur3619@gmail.com>
+Date:   Fri May 1 22:38:13 2020 +0530
+
+    Added Navbar
+    
+    added navbar with a cart image and login button
+    added some css in them
+    
+    and three product detail is added in there
+
+[33mcommit 72e3f2797b60c0c94decea02ce52b633100fd8fd[m
+Author: Rajvardhan <rajthakur3619@gmail.com>
+Date:   Fri May 1 18:46:43 2020 +0530
+
+    Static files
+    
+    adding static dir which contains
+    css
+    images
+    
+    css contain main.css
+    
+    added this main.css to store.html
+    
+    wq
+
+[33mcommit 92fa353cad54bfdd8cb5c0a215235b4489443c85[m
+Author: Rajvardhan <rajthakur3619@gmail.com>
+Date:   Fri May 1 18:28:58 2020 +0530
+
+    setting up templates
+    
+    store.html
+    cart.html
+    checout.html
+    
+    and created the urls.py in store app
+    and then configure it to the project urls
+    :wq
+
+[33mcommit f6bc8970a8664e6d833b79826fabd248f66ad6fc[m
+Author: Rajvardhan <rajthakur3619@gmail.com>
+Date:   Fri May 1 18:22:39 2020 +0530
+
+    setting up templates
+    store
+    cart
+    checkout
+    and created views and urls
+    
+    2nd commit
+    :wq
+
+[33mcommit 1556b8c5e1053003fb024e5118e2ab679a4a2ef8[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Rajvardhan <rajthakur3619@gmail.com>
+Date:   Fri May 1 16:53:02 2020 +0530
+
+    started new django project
