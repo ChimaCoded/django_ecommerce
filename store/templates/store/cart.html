@@ -16,7 +16,7 @@
                 <table class="table">
                     <tr>
                         <th>Items: <strong>{{ order.get_cart_items }}</strong></th>
-                        <th>Total: <strong>{{ order.get_cart_total }}</strong></th>
+                        <th>Total: <strong>{{ order.get_cart_total|floatformat:2 }}</strong></th>
                         <th>
                             <a style="float: right; margin: 5px;" class="btn btn-success" href="{% url 'checkout' %}">Checkout</a>
                         </th>
@@ -48,7 +48,7 @@
                             <img class="chg-quantity" src="{% static 'images/arrow-down.png'%}">
                         </div>
                     </div>
-                    <div style="flex: 1;">{{ item.get_total }}</div>
+                    <div style="flex: 1;">{{ item.get_total|floatformat:2 }}</div>
                 </div>
                 {% endfor %}
 
