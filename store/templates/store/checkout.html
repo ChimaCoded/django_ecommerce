@@ -53,8 +53,9 @@
             </div>
             <br>
 
-            <div class="box-element hidden" id="paypal-options">
+            <div class="box-element" id="paypal-info">
                 <small>PayPal options</small>
+                <button id="make-payment"> Make Payment</button>
             </div>
         </div>
 
@@ -80,4 +81,29 @@
             </div>
         </div>
     </div>
+
+    <script type="text/javascript">
+        var shipping = '{{ order.shipping }}'
+
+        if(shipping == 'False'){
+            document.getElementById('shipping-info').innerHTML = ''
+        }
+
+            var form = document.getElementById('form');
+
+            function submitFormData(){
+                console.log('Payment button clicked');
+            }
+
+            form.addEventListener('submit', function(e){
+                e.preventDefault()
+                console.log('Form subitted...');
+                document.getElementById('form-button').classList.add('hidden');
+                document.getElementById('payment-info').classList.remove('hidden');
+            });
+
+            document.getElementById('make-payment').addEventListener('click', function(e){
+                submitFormData();
+            })
+    </script>
 {% endblock content %}
