@@ -1,5 +1,5 @@
 # django_ecommerce
-Following are the screenshots of the projects
+Following are the screenshots of the project
 
 ![](Screenshots/Screenshot%20from%202020-07-11%2018-55-51.png)
 
